@@ -1,4 +1,4 @@
--- --
+-- warning information(3)(There are many such warnings here as well) --
 
 Warning: Type mismatch in argument ‘q’ at (1); passed REAL(8) to COMPLEX(8) [-Wargument-mismatch]
 ./elpa-2018.05.001/real_template.F90:133:37:
