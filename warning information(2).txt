@@ -1,0 +1,36 @@
+--warning information(2)()
+
+f77func.h:63:27: note: in definition of macro ‘F77_NAME’
+   63 |     #define F77_NAME(a,A) a ## _
+      |                           ^
+Cluster_DFT_NonCol.c:512:14: warning: implicit declaration of function ‘solve_evp_complex_’ [-Wimplicit-function-declaration]
+  512 |     F77_NAME(solve_evp_complex,SOLVE_EVP_COMPLEX)( &n2, &MaxN, Hs2, &na_rows2, &ko[1], Cs2, &na_rows2,
+      |              ^~~~~~~~~~~~~~~~~
+f77func.h:63:27: note: in definition of macro ‘F77_NAME’
+   63 |     #define F77_NAME(a,A) a ## _
+      |                           ^
+Cluster_DFT_NonCol.c:522:14: warning: implicit declaration of function ‘elpa_solve_evp_complex_2stage_double_impl_’ [-Wimplicit-function-declaration]
+  522 |     F77_NAME(elpa_solve_evp_complex_2stage_double_impl,ELPA_SOLVE_EVP_COMPLEX_2STAGE_DOUBLE_IMPL)
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+f77func.h:63:27: note: in definition of macro ‘F77_NAME’
+   63 |     #define F77_NAME(a,A) a ## _
+      |                           ^
+Cluster_DFT_NonCol.c:556:12: warning: implicit declaration of function ‘pzgemm_’ [-Wimplicit-function-declaration]
+  556 |   F77_NAME(pzgemm,PZGEMM)("T","T",&n2,&n2,&n2,&alpha,Cs2,&ONE,&ONE,descC2,Ss2,&ONE,&ONE,descS2,&beta,Hs2,&ONE,&ONE,descH2);
+      |            ^~~~~~
+f77func.h:63:27: note: in definition of macro ‘F77_NAME’
+   63 |     #define F77_NAME(a,A) a ## _
+      |                           ^
+Cluster_DFT_NonCol.c: In function ‘Lapack_LU_Zinverse’:
+Cluster_DFT_NonCol.c:2740:14: warning: implicit declaration of function ‘zgetrf_’ [-Wimplicit-function-declaration]
+ 2740 |     F77_NAME(zgetrf,ZGETRF)(&n,&n,A,&n,ipiv,&info);
+      |              ^~~~~~
+f77func.h:63:27: note: in definition of macro ‘F77_NAME’
+   63 |     #define F77_NAME(a,A) a ## _
+      |                           ^
+Cluster_DFT_NonCol.c:2772:14: warning: implicit declaration of function ‘zgetri_’ [-Wimplicit-function-declaration]
+ 2772 |     F77_NAME(zgetri,ZGETRI)(&n, A, &n, ipiv, work, &lwork, &info);
+      |              ^~~~~~
+f77func.h:63:27: note: in definition of macro ‘F77_NAME’
+   63 |     #define F77_NAME(a,A) a ## _
+      |                           ^
