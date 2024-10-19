@@ -1,4 +1,5 @@
---warning information(2)()
+--warning information(2)(There are many such warnings here as well)
+
 
 f77func.h:63:27: note: in definition of macro ‘F77_NAME’
    63 |     #define F77_NAME(a,A) a ## _
