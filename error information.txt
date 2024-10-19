@@ -1,0 +1,33 @@
+--warning information(There are many such warnings)---
+openmx_common.h:3559:13: warning: inline function ‘Spherical_Bessel’ declared but never defined
+ 3559 | inline void Spherical_Bessel( double x, int lmax, double *sb, double *dsb ) ;
+      |             ^~~~~~~~~~~~~~~~
+mpicc -O3 -x c -flto -ffast-math -fopenmp -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I./elpa-2018.05.001 -c truncation.c
+In file included from truncation.c:18:
+openmx_common.h:3559:13: warning: inline function ‘Spherical_Bessel’ declared but never defined
+ 3559 | inline void Spherical_Bessel( double x, int lmax, double *sb, double *dsb ) ;
+      |             ^~~~~~~~~~~~~~~~
+mpicc -O3 -x c -flto -ffast-math -fopenmp -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I./elpa-2018.05.001 -c readfile.c
+In file included from readfile.c:16:
+openmx_common.h:3559:13: warning: inline function ‘Spherical_Bessel’ declared but never defined
+ 3559 | inline void Spherical_Bessel( double x, int lmax, double *sb, double *dsb ) ;
+      |             ^~~~~~~~~~~~~~~~
+mpicc -O3 -x c -flto -ffast-math -fopenmp -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I./elpa-2018.05.001 -c FT_PAO.c
+In file included from FT_PAO.c:22:
+openmx_common.h:3559:13: warning: inline function ‘Spherical_Bessel’ declared but never defined
+ 3559 | inline void Spherical_Bessel( double x, int lmax, double *sb, double *dsb ) ;
+      |             ^~~~~~~~~~~~~~~~
+mpicc -O3 -x c -flto -ffast-math -fopenmp -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I./elpa-2018.05.001 -c FT_NLP.c
+In file included from FT_NLP.c:22:
+openmx_common.h:3559:13: warning: inline function ‘Spherical_Bessel’ declared but never defined
+ 3559 | inline void Spherical_Bessel( double x, int lmax, double *sb, double *dsb ) ;
+      |             ^~~~~~~~~~~~~~~~
+mpicc -O3 -x c -flto -ffast-math -fopenmp -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I./elpa-2018.05.001 -c FT_ProExpn_VNA.c
+In file included from FT_ProExpn_VNA.c:22:
+openmx_common.h:3559:13: warning: inline function ‘Spherical_Bessel’ declared but never defined
+ 3559 | inline void Spherical_Bessel( double x, int lmax, double *sb, double *dsb ) ;
+      |             ^~~~~~~~~~~~~~~~
+mpicc -O3 -x c -flto -ffast-math -fopenmp -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I./elpa-2018.05.001 -c FT_VNA.c
+In file included from FT_VNA.c:21:
+openmx_common.h:3559:13: warning: inline function ‘Spherical_Bessel’ declared but never defined
+ 3559 | inline void Spherical_Bessel( double x, int lmax, double *sb, double *dsb ) ;
