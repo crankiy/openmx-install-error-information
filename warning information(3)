@@ -1,0 +1,13 @@
+-- --
+
+Warning: Type mismatch in argument ‘q’ at (1); passed REAL(8) to COMPLEX(8) [-Wargument-mismatch]
+./elpa-2018.05.001/real_template.F90:133:37:
+
+  133 |        & (q(i,1),hh, nb, ldq, ldh, s)
+      |                                     1
+Warning: Type mismatch in argument ‘q’ at (1); passed REAL(8) to COMPLEX(8) [-Wargument-mismatch]
+./elpa-2018.05.001/real_template.F90:145:37:
+
+  145 |        & (q(i,1),hh, nb, ldq, ldh, s)
+      |                                     1
+Warning: Type mismatch in argument ‘q’ at (1); passed REAL(8) to COMPLEX(8) [-Wargument-mismatch]
