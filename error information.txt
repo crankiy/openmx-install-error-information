@@ -1,4 +1,5 @@
 --warning information(There are many such warnings)---
+
 openmx_common.h:3559:13: warning: inline function ‘Spherical_Bessel’ declared but never defined
  3559 | inline void Spherical_Bessel( double x, int lmax, double *sb, double *dsb ) ;
       |             ^~~~~~~~~~~~~~~~
