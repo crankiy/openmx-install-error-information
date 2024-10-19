@@ -1,0 +1,228 @@
+--error information（And there are many, many errors of the same type as below）--
+
+
+openmx.o:85:55: error: exponent has no digits
+   85 | -crJ�������SL��c��ɗ�L�!&�8c[ @]�3[
+                                          ��k��\��kq�PpY�-b���Y���,�����-� ����vPr�-��v��䇮?:ćDL�j��-b�F���0��{�b�&�b�o#&_���7{�x���H
+                                                                                                                                     6N��b���(���)&o��ɏ�|��)&o�!&_���h�[��<_���b�6#ow��;�m��m�փ|��g���mu��7��
+                   ��Y
+                      �A��
+                          zd
+                            1x�)�"����jO��jq�QxH�4R���sU^b��-f����,�,
+      |                                                       ^~
+openmx.o:85:57: error: stray ‘\361’ in program
+   85 | -crJ�������SL��c��ɗ�L�!&�8c[ @]�3[
+                                          ��k��\��kq�PpY�-b���Y���,�����-� ����vPr�-��v��䇮?:ćDL�j��-b�F���0��{�b�&�b�o#&_���7{�x���H
+                                                                                                                                     6N��b���(���)&o��ɏ�|��)&o�!&_���h�[��<_���b�6#ow��;�m��m�փ|��g���mu��7��
+                   ��Y
+                      �A��
+                          zd
+                            1x�)�"����jO��jq�QxH�4R���sU^b��-f����,�,
+      |                                                         ^
+openmx.o:85:58: error: stray ‘\231’ in program
+   85 | -crJ�������SL��c��ɗ�L�!&�8c[ @]�3[
+                                          ��k��\��kq�PpY�-b�ͦY���,�����-� ����vPr�-��v��䇮?:ćDL�j��-b�F���0��{�b�&�b�o#&_���7{�x���H
+                                                                                                                                   6N��b���(���)&o��ɏ�|��)&o�!&_���h�[��<_���b�6#ow��;�m��m�փ|��g���mu��7��
+                 ��Y
+                    �A��
+                        zd
+                          1x�)�"����jO��jq�QxH�4R���sU^b��-f����,�,
+      |                                                          ^
+openmx.o:85:61: error: stray ‘\27’ in program
+   85 | -crJ�������SL��c��ɗ�L�!&�8c[ @]�3[
+                                          ��k��\��kq�PpY�-b�ͦY���,�����-� ����vPr�-��v��䇮?:ćDL�j��-b�F���0��{�b�&�b�o#&_���7{�x���H
+                                                                                                                                   6N��b���(���)&o��ɏ�|��)&o�!&_���h�[��<_���b�6#ow��;�m��m�փ|��g���mu��7��
+                 ��Y
+                    �A��
+                        zd
+                          1x�)�"����jO��jq�QxH�4R���sU^b��-f����,�,
+      |                                                             ^
+openmx.o:85:62: error: stray ‘\245’ in program
+   85 | -crJ�������SL��c��ɗ�L�!&�8c[ @]�3[
+                                          ��k��\��kq�PpY�-b�ͦY���,�����-� ����vPr�-��v��䇮?:ćDL�j��-b�F���0��{�b�&�b�o#&_���7{�x���H
+                                                                                                                                   6N��b���(���)&o��ɏ�|��)&o�!&_���h�[��<_���b�6#ow��;�m��m�փ|��g���mu��7��
+                 ��Y
+                    �A��
+                        zd
+                          1x�)�"����jO��jq�QxH�4R���sU^b��-f����,�,
+      |                                                              ^
+openmx.o:85:63: error: stray ‘\222’ in program
+   85 | -crJ�������SL��c��ɗ�L�!&�8c[ @]�3[
+                                          ��k��\��kq�PpY�-b�ͦY���,�����-� ����vPr�-��v��䇮?:ćDL�j��-b�F���0��{�b�&�b�o#&_���7{�x���H
+                                                                                                                                   6N��b���(���)&o��ɏ�|��)&o�!&_���h�[��<_���b�6#ow��;�m��m�փ|��g���mu��7��
+                 ��Y
+                    �A��
+                        zd
+                          1x�)�"����jO��jq�QxH�4R���sU^b��-f����,�,
+      |                                                               ^
+openmx.o:85:64: error: stray ‘\’ in program
+   85 | -crJ�������SL��c��ɗ�L�!&�8c[ @]�3[
+                                          ��k��\��kq�PpY�-b�ͦY���,�����-� ����vPr�-��v��䇮?:ćDL�j��-b�F���0��{�b�&�b�o#&_���7{�x���H
+                                                                                                                                   6N��b���(���)&o��ɏ�|��)&o�!&_���h�[��<_���b�6#ow��;�m��m�փ|��g���mu��7��
+                 ��Y
+                    �A��
+                        zd
+                          1x�)�"����jO��jq�QxH�4R���sU^b��-f����,�,
+      |                                                                ^
+openmx.o:85:65: error: stray ‘\20’ in program
+   85 | -crJ�������SL��c��ɗ�L�!&�8c[ @]�3[
+                                          ��k��\��kq�PpY�-b�ͦY���,�����-� ����vPr�-��v��䇮?:ćDL�j��-b�F���0��{�b�&�b�o#&_���7{�x���H
+                                                                                                                                   6N��b���(���)&o��ɏ�|��)&o�!&_���h�[��<_���b�6#ow��;�m��m�փ|��g���mu��7��
+                 ��Y
+                    �A��
+                        zd
+                          1x�)�"����jO��jq�QxH�4R���sU^b��-f����,�,
+      |                                                                 ^
+openmx.o:85:67: error: stray ‘\207’ in program
+   85 | -crJ�������SL��c��ɗ�L�!&�8c[ @]�3[
+                                          ��k��\��kq�PpY�-b�ͦY���,�����-� ����vPr�-��v��䇮?:ćDL�j��-b�F���0��{�b�&�b�o#&_���7{�x���H
+                                                                                                                                   6N��b���(���)&o��ɏ�|��)&o�!&_���h�[��<_���b�6#ow��;�m��m�փ|��g���mu��7��
+                 ��Y
+                    �A��
+                        zd
+                          1x�)�"����jO��jq�QxH�4R���sU^b��-f����,�,
+      |                                                                   ^
+openmx.o:85:68: error: stray ‘\301’ in program
+   85 | -crJ�������SL��c��ɗ�L�!&�8c[ @]�3[
+                                          ��k��\��kq�PpY�-b�ͦY���,�����-� ����vPr�-��v��䇮?:ćDL�j��-b�F���0��{�b�&�b�o#&_���7{�x���H
+                                                                                                                                   6N��b���(���)&o��ɏ�|��)&o�!&_���h�[��<_���b�6#ow��;�m��m�փ|��g���mu��7��
+                 ��Y
+                    �A��
+                        zd
+                          1x�)�"����jO��jq�QxH�4R���sU^b��-f����,�,
+      |                                                                    ^
+openmx.o:85:69: error: stray ‘\326’ in program
+   85 | -crJ�������SL��c��ɗ�L�!&�8c[ @]�3[
+                                          ��k��\��kq�PpY�-b�ͦY���,�����-� ����vPr�-��v��䇮?:ćDL�j��-b�F���0��{�b�&�b�o#&_���7{�x���H
+                                                                                                                                   6N��b���(���)&o��ɏ�|��)&o�!&_���h�[��<_���b�6#ow��;�m��m�փ|��g���mu��7��
+                 ��Y
+                    �A��
+                        zd
+                          1x�)�"����jO��jq�QxH�4R���sU^b��-f����,�,
+      |                                                                     ^
+openmx.o:85:73: error: stray ‘\233’ in program
+   85 | -crJ�������SL��c��ɗ�L�!&�8c[ @]�3[
+                                          ��k��\��kq�PpY�-b�ͦY���,�����-� ����vPr�-��v��䇮?:ćDL�j��-b�F���0��{�b�&�b�o#&_���7{�x���H
+                                                                                                                                   6N��b���(���)&o��ɏ�|��)&o�!&_���h�[��<_���b�6#ow��;�m��m�փ|��g���mu��7��
+                 ��Y
+                    �A��
+                        zd
+                          1x�)�"����jO��jq�QxH�4R���sU^b��-f����,�,
+      |                                                                         ^
+openmx.o:85:75: error: stray ‘\203’ in program
+   85 | -crJ�������SL��c��ɗ�L�!&�8c[ @]�3[
+                                          ��k��\��kq�PpY�-b�ͦY���,�����-� ����vPr�-��v��䇮?:ćDL�j��-b�F���0��{�b�&�b�o#&_���7{�x���H
+                                                                                                                                   6N��b���(���)&o��ɏ�|��)&o�!&_���h�[��<_���b�6#ow��;�m��m�փ|��g���mu��7��
+                 ��Y
+                    �A��
+                        zd
+                          1x�)�"����jO��jq�QxH�4R���sU^b��-f����,�,
+      |                                                                           ^
+openmx.o:86:3: error: stray ‘\227’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |   ^
+openmx.o:86:4: error: stray ‘\322’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |    ^
+openmx.o:86:5: error: stray ‘\351’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |     ^
+openmx.o:86:6: error: stray ‘\275’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |      ^
+openmx.o:86:7: error: stray ‘\311’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |       ^
+openmx.o:86:8: error: stray ‘\303’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |        ^
+openmx.o:86:9: error: stray ‘\336’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |         ^
+openmx.o:86:10: error: stray ‘\334’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |          ^
+openmx.o:86:11: error: stray ‘\243’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |           ^
+openmx.o:86:12: error: stray ‘\367’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |            ^
+openmx.o:86:14: error: stray ‘\5’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |              ^
+openmx.o:86:15: error: stray ‘\353’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |               ^
+openmx.o:86:16: error: stray ‘\215’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                ^
+openmx.o:86:17: error: stray ‘\352’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                 ^
+openmx.o:86:20: error: stray ‘\346’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                    ^
+openmx.o:86:21: error: stray ‘\211’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                     ^
+openmx.o:86:22: error: stray ‘\336’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                      ^
+openmx.o:86:23: error: stray ‘\314’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                       ^
+openmx.o:86:24: error: stray ‘\277’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                        ^
+openmx.o:86:27: error: stray ‘`’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                           ^
+openmx.o:86:31: error: stray ‘\357’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                               ^
+openmx.o:86:32: error: stray ‘\215’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                                ^
+openmx.o:86:33: error: stray ‘\352’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                                 ^
+openmx.o:86:34: error: stray ‘\252’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                                  ^
+openmx.o:86:38: error: stray ‘\177’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                                      ^
+openmx.o:86:39: error: stray ‘\201’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                                       ^
+openmx.o:86:41: error: stray ‘\365’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                                         ^
+openmx.o:86:42: error: stray ‘\27’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                                          ^
+openmx.o:86:43: error: stray ‘\32’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                                           ^
+openmx.o:86:44: error: stray ‘\352’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                                            ^
+openmx.o:86:46: error: stray ‘\222’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                                              ^
+openmx.o:86:47: error: stray ‘\324’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                                               ^
+openmx.o:86:50: error: stray ‘\331’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                                                  ^
+openmx.o:86:51: error: stray ‘\344’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                                                   ^
+openmx.o:86:52: error: stray ‘\257’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+      |                                                    ^
+openmx.o:86:53: error: stray ‘\353’ in program
+   86 | ��H-3x��ZC2��\=d�@'9n!�~W1�B�f!F�<�g g+)��"�ԓ*�����c��!�ʝ�P������� `z��g��I��
+ 
