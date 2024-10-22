@@ -1,4 +1,4 @@
-
+--warning information(4)(There are many such warnings)---
 
 mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c DFT.c
 DFT.c(2528): warning #266: function "Csys2blacs_handle" declared implicitly
