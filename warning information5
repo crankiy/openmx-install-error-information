@@ -1,0 +1,2 @@
+ld: warning: libmpi.so.12, needed by /beegfs/software/intel/oneapi/mpi/2021.3.0/lib/libmpifort.so, may conflict with libmpi.so.40
+ld: warning: libmpi.so.12, needed by /beegfs/software/intel/oneapi/mpi/2021.3.0/lib/libmpifort.so, may conflict with libmpi.so.40
