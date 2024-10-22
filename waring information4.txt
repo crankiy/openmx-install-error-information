@@ -1,0 +1,547 @@
+
+
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c DFT.c
+DFT.c(2528): warning #266: function "Csys2blacs_handle" declared implicitly
+      bhandle2 = Csys2blacs_handle(MPI_CommWD2[myworld2]);
+                 ^
+
+DFT.c(2530): warning #266: function "Cblacs_gridinit" declared implicitly
+      Cblacs_gridinit(&ictxt2, "Row", np_rows, np_cols);
+      ^
+
+DFT.c(2697): warning #266: function "Cfree_blacs_system_handle" declared implicitly
+      Cfree_blacs_system_handle(bhandle2);
+      ^
+
+DFT.c(2698): warning #266: function "Cblacs_gridexit" declared implicitly
+      Cblacs_gridexit(ictxt2);
+      ^
+
+DFT.c(2911): warning #266: function "Csys2blacs_handle" declared implicitly
+      bhandle2 = Csys2blacs_handle(MPI_CommWD2[myworld2]);
+                 ^
+
+DFT.c(2913): warning #266: function "Cblacs_gridinit" declared implicitly
+      Cblacs_gridinit(&ictxt2, "Row", np_rows, np_cols);
+      ^
+
+DFT.c(3124): warning #266: function "Cfree_blacs_system_handle" declared implicitly
+      Cfree_blacs_system_handle(bhandle2);
+      ^
+
+DFT.c(3125): warning #266: function "Cblacs_gridexit" declared implicitly
+      Cblacs_gridexit(ictxt2);
+      ^
+
+DFT.c(3304): warning #266: function "Csys2blacs_handle" declared implicitly
+      bhandle1 = Csys2blacs_handle(MPI_CommWD1[myworld1]);
+                 ^
+
+DFT.c(3307): warning #266: function "Cblacs_gridinit" declared implicitly
+      Cblacs_gridinit(&ictxt1, "Row", np_rows, np_cols);
+      ^
+
+DFT.c(3360): warning #266: function "Cfree_blacs_system_handle" declared implicitly
+      Cfree_blacs_system_handle(bhandle1);
+      ^
+
+DFT.c(3361): warning #266: function "Cblacs_gridexit" declared implicitly
+      Cblacs_gridexit(ictxt1);
+      ^
+
+DFT.c(3489): warning #266: function "Csys2blacs_handle" declared implicitly
+      bhandle1 = Csys2blacs_handle(mpi_comm_level1);
+                 ^
+
+DFT.c(3492): warning #266: function "Cblacs_gridinit" declared implicitly
+      Cblacs_gridinit(&ictxt1, "Row", np_rows, np_cols);
+      ^
+
+DFT.c(3610): warning #266: function "Cfree_blacs_system_handle" declared implicitly
+      Cfree_blacs_system_handle(bhandle1);
+      ^
+
+DFT.c(3611): warning #266: function "Cblacs_gridexit" declared implicitly
+      Cblacs_gridexit(ictxt1);
+      ^
+
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Mixing_DM.c
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Mixing_H.c
+Mixing_H.c(2940): warning #266: function "dgetrf_" declared implicitly
+      F77_NAME(dgetrf,DGETRF)( &M, &N, A, &LDA, IPIV, &INFO);
+      ^
+
+Mixing_H.c(2941): warning #266: function "dgetri_" declared implicitly
+      F77_NAME(dgetri,DGETRI)( &N, A, &LDA, IPIV, WORK, &LWORK, &INFO);
+      ^
+
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Mixing_V.c
+Mixing_V.c(313): warning #266: function "dgemm_" declared implicitly
+        F77_NAME(dgemm,DGEMM)( "T","N", &M, &N, &K, 
+        ^
+
+Mixing_V.c(417): warning #266: function "omp_get_thread_num" declared implicitly
+        OMPID = omp_get_thread_num();
+                ^
+
+Mixing_V.c(418): warning #266: function "omp_get_num_threads" declared implicitly
+        Nthrds = omp_get_num_threads();
+                 ^
+
+Mixing_V.c(493): warning #266: function "omp_get_thread_num" declared implicitly
+          OMPID = omp_get_thread_num();
+                  ^
+
+Mixing_V.c(494): warning #266: function "omp_get_num_threads" declared implicitly
+          Nthrds = omp_get_num_threads();
+                   ^
+
+Mixing_V.c(1267): warning #266: function "dgetrf_" declared implicitly
+      F77_NAME(dgetrf,DGETRF)( &M, &N, A, &LDA, IPIV, &INFO);
+      ^
+
+Mixing_V.c(1268): warning #266: function "dgetri_" declared implicitly
+      F77_NAME(dgetri,DGETRI)( &N, A, &LDA, IPIV, WORK, &LWORK, &INFO);
+      ^
+
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Force.c
+Force.c(9069): warning #266: function "strcmp" declared implicitly
+        if      ((strcmp(Core_Hole_Orbital,"s")==0) && l==0 && mul==0) {
+                  ^
+
+Force.c(9943): warning #266: function "strcmp" declared implicitly
+        if      ((strcmp(Core_Hole_Orbital,"s")==0) && l==0 && mul==0) {
+                  ^
+
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Stress.c
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Poisson.c
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Poisson_ESM.c
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Cluster_DFT_Col.c
+Cluster_DFT_Col.c(295): warning #266: function "solve_evp_real_" declared implicitly
+        F77_NAME(solve_evp_real,SOLVE_EVP_REAL)(&n, &n, Cs, &na_rows, &ko[0][1], Ss, &na_rows, &nblk, &mpi_comm_rows_int, &mpi_comm_cols_int);
+        ^
+
+Cluster_DFT_Col.c(500): warning #266: function "Cblacs_barrier" declared implicitly
+    Cblacs_barrier(ictxt1,"A");
+    ^
+
+Cluster_DFT_Col.c(501): warning #266: function "pdgemm_" declared implicitly
+    F77_NAME(pdgemm,PDGEMM)("N","N",&n,&n,&n,&alpha,Hs,&ONE,&ONE,descH,Ss,&ONE,&ONE,descS,&beta,Cs,&ONE,&ONE,descC);
+    ^
+
+Cluster_DFT_Col.c(528): warning #266: function "solve_evp_real_" declared implicitly
+      F77_NAME(solve_evp_real,SOLVE_EVP_REAL)(&n, &MaxN, Hs, &na_rows, &ko[spin][1], Cs, 
+      ^
+
+Cluster_DFT_Col.c(2970): warning #266: function "dgetrf_" declared implicitly
+      F77_NAME(dgetrf,DGETRF)(&n,&n,A,&n,ipiv,&info);
+      ^
+
+Cluster_DFT_Col.c(3001): warning #266: function "dgetri_" declared implicitly
+      F77_NAME(dgetri,DGETRI)(&n, A, &n, ipiv, work, &lwork, &info);
+      ^
+
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Cluster_DFT_NonCol.c
+Cluster_DFT_NonCol.c(328): warning #266: function "solve_evp_real_" declared implicitly
+        F77_NAME(solve_evp_real,SOLVE_EVP_REAL)( &n, &n, Cs, &na_rows, &ko[1], Ss, &na_rows, &nblk, 
+        ^
+
+Cluster_DFT_NonCol.c(424): warning #266: function "Cblacs_barrier" declared implicitly
+    Cblacs_barrier(ictxt1,"A");
+    ^
+
+Cluster_DFT_NonCol.c(425): warning #266: function "pdgemm_" declared implicitly
+    F77_NAME(pdgemm,PDGEMM)("N","N",&n,&n,&n,&alpha,rHs11,&ONE,&ONE,descH,Ss,&ONE,&ONE,descS,&beta,Cs,&ONE,&ONE,descC);
+    ^
+
+Cluster_DFT_NonCol.c(512): warning #266: function "solve_evp_complex_" declared implicitly
+      F77_NAME(solve_evp_complex,SOLVE_EVP_COMPLEX)( &n2, &MaxN, Hs2, &na_rows2, &ko[1], Cs2, &na_rows2, 
+      ^
+
+Cluster_DFT_NonCol.c(556): warning #266: function "pzgemm_" declared implicitly
+    F77_NAME(pzgemm,PZGEMM)("T","T",&n2,&n2,&n2,&alpha,Cs2,&ONE,&ONE,descC2,Ss2,&ONE,&ONE,descS2,&beta,Hs2,&ONE,&ONE,descH2);
+    ^
+
+Cluster_DFT_NonCol.c(2740): warning #266: function "zgetrf_" declared implicitly
+      F77_NAME(zgetrf,ZGETRF)(&n,&n,A,&n,ipiv,&info);
+      ^
+
+Cluster_DFT_NonCol.c(2772): warning #266: function "zgetri_" declared implicitly
+      F77_NAME(zgetri,ZGETRI)(&n, A, &n, ipiv, work, &lwork, &info);
+      ^
+
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Cluster_DFT_Dosout.c
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Cluster_DFT_ON2.c
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Cluster_DFT_LNO.c
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Band_DFT_Col.c
+Band_DFT_Col.c(760): warning #266: function "solve_evp_complex_" declared implicitly
+          F77_NAME(solve_evp_complex,SOLVE_EVP_COMPLEX)
+          ^
+
+Band_DFT_Col.c(830): warning #266: function "Cblacs_barrier" declared implicitly
+      Cblacs_barrier(ictxt2,"A");
+      ^
+
+Band_DFT_Col.c(831): warning #266: function "pzgemm_" declared implicitly
+      F77_NAME(pzgemm,PZGEMM)("N","N",&n,&n,&n,&alpha,Hs,&ONE,&ONE,descH,Ss,&ONE,&ONE,descS,&beta,Cs,&ONE,&ONE,descC);
+      ^
+
+Band_DFT_Col.c(860): warning #266: function "solve_evp_complex_" declared implicitly
+        F77_NAME(solve_evp_complex,SOLVE_EVP_COMPLEX)
+        ^
+
+Band_DFT_Col.c(1716): warning #266: function "solve_evp_complex_" declared implicitly
+          F77_NAME(solve_evp_complex,SOLVE_EVP_COMPLEX)
+          ^
+
+Band_DFT_Col.c(1780): warning #266: function "Cblacs_barrier" declared implicitly
+        Cblacs_barrier(ictxt2,"A");
+        ^
+
+Band_DFT_Col.c(1782): warning #266: function "pzgemm_" declared implicitly
+        F77_NAME(pzgemm,PZGEMM)("N","N",&n,&n,&n,&alpha,Hs,&ONE,&ONE,descH,Ss,&ONE,&ONE,descS,&beta,Cs,&ONE,&ONE,descC);
+        ^
+
+Band_DFT_Col.c(1806): warning #266: function "solve_evp_complex_" declared implicitly
+          F77_NAME(solve_evp_complex,SOLVE_EVP_COMPLEX)
+          ^
+
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Band_DFT_NonCol.c
+Band_DFT_NonCol.c(678): warning #266: function "solve_evp_complex_" declared implicitly
+          F77_NAME(solve_evp_complex,SOLVE_EVP_COMPLEX)
+          ^
+
+Band_DFT_NonCol.c(813): warning #266: function "Cblacs_barrier" declared implicitly
+        Cblacs_barrier(ictxt1,"A");
+        ^
+
+Band_DFT_NonCol.c(814): warning #266: function "pzgemm_" declared implicitly
+        F77_NAME(pzgemm,PZGEMM)("N","N",&n,&n,&n,&alpha,rHs11,&ONE,&ONE,descH,Ss,&ONE,&ONE,descS,&beta,Cs,&ONE,&ONE,descC);
+        ^
+
+Band_DFT_NonCol.c(876): warning #266: function "solve_evp_complex_" declared implicitly
+          F77_NAME(solve_evp_complex,SOLVE_EVP_COMPLEX)
+          ^
+
+Band_DFT_NonCol.c(939): warning #266: function "Cblacs_barrier" declared implicitly
+        Cblacs_barrier(ictxt1_2,"A");
+        ^
+
+Band_DFT_NonCol.c(940): warning #266: function "pzgemm_" declared implicitly
+        F77_NAME(pzgemm,PZGEMM)( "T","T",&n2,&n2,&n2,&alpha,Cs2,&ONE,&ONE,descC2,Ss2,
+        ^
+
+Band_DFT_NonCol.c(1319): warning #266: function "solve_evp_complex_" declared implicitly
+          F77_NAME(solve_evp_complex,SOLVE_EVP_COMPLEX)
+          ^
+
+Band_DFT_NonCol.c(1443): warning #266: function "Cblacs_barrier" declared implicitly
+        Cblacs_barrier(ictxt1,"A");
+        ^
+
+Band_DFT_NonCol.c(1444): warning #266: function "pzgemm_" declared implicitly
+        F77_NAME(pzgemm,PZGEMM)("N","N",&n,&n,&n,&alpha,rHs11,&ONE,&ONE,descH,Ss,&ONE,&ONE,descS,&beta,Cs,&ONE,&ONE,descC);
+        ^
+
+Band_DFT_NonCol.c(1503): warning #266: function "solve_evp_complex_" declared implicitly
+          F77_NAME(solve_evp_complex,SOLVE_EVP_COMPLEX)
+          ^
+
+--------------------------------------------------
+
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Divide_Conquer_LNO.c
+Divide_Conquer_LNO.c(1261): warning #266: function "Eigen_lapack_d" declared implicitly
+          Eigen_lapack_d(C, ko, NUM, NUM);
+          ^
+
+Divide_Conquer_LNO.c(1309): warning #266: function "dgemm_" declared implicitly
+        F77_NAME(dgemm,DGEMM)("N","N", &BM,&BN,&BK, 
+        ^
+
+Divide_Conquer_LNO.c(1331): warning #266: function "dgemm_" declared implicitly
+        F77_NAME(dgemm,DGEMM)("C","N", &BM,&BN,&BK, 
+        ^
+
+Divide_Conquer_LNO.c(1405): warning #266: function "Eigen_lapack_d" declared implicitly
+        Eigen_lapack_d(C, ko, NUM, NUM2);
+        ^
+
+Divide_Conquer_LNO.c(1439): warning #266: function "dgemm_" declared implicitly
+        F77_NAME(dgemm,DGEMM)("N","N", &BM,&BN,&BK, 
+        ^
+
+Divide_Conquer_LNO.c(3768): warning #266: function "zgemm_" declared implicitly
+        F77_NAME(zgemm,ZGEMM)("N","N", &BM,&BN,&BK, 
+        ^
+
+Divide_Conquer_LNO.c(3790): warning #266: function "zgemm_" declared implicitly
+        F77_NAME(zgemm,ZGEMM)("C","N", &BM,&BN,&BK, 
+        ^
+
+Divide_Conquer_LNO.c(3957): warning #266: function "zgemm_" declared implicitly
+        F77_NAME(zgemm,ZGEMM)("N","N", &BM,&BN,&BK, 
+        ^
+
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Krylov.c
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Divide_Conquer_Dosout.c
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c EGAC_DFT.c
+EGAC_DFT.c(1067): warning #266: function "zgemm_" declared implicitly
+        F77_NAME(zgemm,ZGEMM)("T","N",&M,&N,&K,&al,B,&LDA,GA,&LDB,&be,Mat,&LDC);
+        ^
+
+EGAC_DFT.c(1076): warning #266: function "zgemm_" declared implicitly
+        F77_NAME(zgemm,ZGEMM)("N","N",&M,&N,&K,&al,Mat,&LDA,B,&LDB,&be,Mat2,&LDC);
+        ^
+
+EGAC_DFT.c(1091): warning #266: function "zgemm_" declared implicitly
+        F77_NAME(zgemm,ZGEMM)("N","N",&M,&N,&K,&al,fGD_EGAC[job_id],&LDA,Sigma_EGAC[0][job_id],&LDB,&be,Mat,&LDC); 
+        ^
+
+EGAC_DFT.c(1104): warning #266: function "Lapack_LU_Zinverse" declared implicitly
+         Lapack_LU_Zinverse(dim_matD,Mat);
+         ^
+
+EGAC_DFT.c(1120): warning #266: function "zgemm_" declared implicitly
+        F77_NAME(zgemm,ZGEMM)("N","N",&M,&N,&K,&al,Mat2,&LDA,Mat,&LDB,&be,Sigma_EGAC[0][job_id],&LDC); 
+        ^
+
+EGAC_DFT.c(1216): warning #266: function "Lapack_LU_Zinverse" declared implicitly
+      Lapack_LU_Zinverse(dim_matD,fGD_EGAC[job_id]);
+      ^
+
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c LNO.c
+LNO.c(887): warning #266: function "dgeesx_" declared implicitly
+        F77_NAME(dgeesx,DGEESX)( JOBVS, SORT, myselect, SENSE, &N, B, &LDA, &SDIM, WR, WI, VS, &LDVS, 
+        ^
+
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Eigen_lapack.c
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Eigen_lapack2.c
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Eigen_lapack3.c
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c EigenBand_lapack.c
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Eigen_PReHH.c
+Eigen_PReHH.c(381): warning #266: function "solve_evp_real_" declared implicitly
+    F77_NAME(solve_evp_real,SOLVE_EVP_REAL)(&na, &nev, a, &na_rows, &ko[1], z, &na_rows, &nblk, &mpi_comm_rows_int, &mpi_comm_cols_int);
+    ^
+
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c BroadCast_ReMatrix.c
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Eigen_PHH.c
+Eigen_PHH.c(371): warning #266: function "solve_evp_complex_" declared implicitly
+    F77_NAME(solve_evp_complex,SOLVE_EVP_COMPLEX)(&na, &nev, a, &na_rows, &ko[1], z, &na_rows, &nblk, &mpi_comm_rows_int, &mpi_comm_cols_int);
+    ^
+--------------------------------------
+
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c OutData_Binary.c
+OutData_Binary.c(1574): warning #266: function "fsync" declared implicitly
+    fsync(fd);
+    ^
+-----------------------
+
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c TRAN_DFT.c
+TRAN_DFT.c(406): warning #266: function "numroc_" declared implicitly
+      na_rows = numroc_(&n, &nblk, &my_prow, &ZERO, &np_rows);
+                ^
+
+TRAN_DFT.c(409): warning #266: function "Csys2blacs_handle" declared implicitly
+      bhandle2 = Csys2blacs_handle(MPI_CommWD2[myworld2]);
+                 ^
+
+TRAN_DFT.c(411): warning #266: function "Cblacs_gridinit" declared implicitly
+      Cblacs_gridinit(&ictxt2, "Row", np_rows, np_cols);
+      ^
+
+TRAN_DFT.c(420): warning #266: function "descinit_" declared implicitly
+      descinit_(descS, &n, &n, &nblk, &nblk, &ZERO, &ZERO, &ictxt2, &na_rows, &info);
+      ^
+
+TRAN_DFT.c(563): warning #266: function "Cfree_blacs_system_handle" declared implicitly
+      Cfree_blacs_system_handle(bhandle2);
+      ^
+
+TRAN_DFT.c(564): warning #266: function "Cblacs_gridexit" declared implicitly
+      Cblacs_gridexit(ictxt2);
+      ^
+--------------------------------------
+
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c TRAN_DFT_NC.c
+TRAN_DFT_NC.c(399): warning #266: function "numroc_" declared implicitly
+      na_rows = numroc_(&n, &nblk, &my_prow, &ZERO, &np_rows);
+                ^
+
+TRAN_DFT_NC.c(402): warning #266: function "Csys2blacs_handle" declared implicitly
+      bhandle2 = Csys2blacs_handle(MPI_CommWD2[myworld2]);
+                 ^
+
+TRAN_DFT_NC.c(404): warning #266: function "Cblacs_gridinit" declared implicitly
+      Cblacs_gridinit(&ictxt2, "Row", np_rows, np_cols);
+      ^
+
+TRAN_DFT_NC.c(420): warning #266: function "descinit_" declared implicitly
+      descinit_(descS, &n, &n, &nblk, &nblk, &ZERO, &ZERO, &ictxt2, &na_rows, &info);
+      ^
+
+TRAN_DFT_NC.c(568): warning #266: function "Cfree_blacs_system_handle" declared implicitly
+      Cfree_blacs_system_handle(bhandle2);
+      ^
+
+TRAN_DFT_NC.c(569): warning #266: function "Cblacs_gridexit" declared implicitly
+      Cblacs_gridexit(ictxt2);
+      ^
+----------------------------------------
+
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c TRAN_Channel_Output.c
+TRAN_Channel_Output.c(127): warning #266: function "strcmp" declared implicitly
+    if (strcmp(op, "r") == 0) { cmd = 1; }
+        ^
+
+TRAN_Channel_Output.c(521): warning #266: function "fsync" declared implicitly
+          fsync(fd);
+          ^
+
+TRAN_Channel_Output.c(552): warning #266: function "fsync" declared implicitly
+          fsync(fd);
+          ^
+
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c TRAN_Calc_CurrentDensity.c
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c TRAN_CDen_Main.c
+TRAN_CDen_Main.c(826): warning #266: function "fsync" declared implicitly
+            fsync(fd);
+            ^
+----------------------------
+
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Band_DFT_Col_Optical_ScaLAPACK.c
+Band_DFT_Col_Optical_ScaLAPACK.c(367): warning #266: function "numroc_" declared implicitly
+      na_rows = numroc_(&n, &nblk, &my_prow, &ZERO, &np_rows);
+                ^
+
+Band_DFT_Col_Optical_ScaLAPACK.c(370): warning #266: function "Csys2blacs_handle" declared implicitly
+      bhandle2 = Csys2blacs_handle(MPI_CommWD2[myworld2]);
+                 ^
+
+Band_DFT_Col_Optical_ScaLAPACK.c(372): warning #266: function "Cblacs_gridinit" declared implicitly
+      Cblacs_gridinit(&ictxt2, "Row", np_rows, np_cols);
+      ^
+
+Band_DFT_Col_Optical_ScaLAPACK.c(381): warning #266: function "descinit_" declared implicitly
+      descinit_(descS, &n,   &n,   &nblk,  &nblk,  &ZERO, &ZERO, &ictxt2, &na_rows,  &info);
+      ^
+
+Band_DFT_Col_Optical_ScaLAPACK.c(422): warning #266: function "numroc_" declared implicitly
+      na_rows = numroc_(&n, &nblk, &my_prow, &ZERO, &np_rows);
+                ^
+
+Band_DFT_Col_Optical_ScaLAPACK.c(425): warning #266: function "Csys2blacs_handle" declared implicitly
+      bhandle2 = Csys2blacs_handle(MPI_CommWD2[myworld2]);
+                 ^
+
+Band_DFT_Col_Optical_ScaLAPACK.c(427): warning #266: function "Cblacs_gridinit" declared implicitly
+      Cblacs_gridinit(&ictxt2, "Row", np_rows, np_cols);
+      ^
+
+Band_DFT_Col_Optical_ScaLAPACK.c(436): warning #266: function "descinit_" declared implicitly
+      descinit_(descS, &n,   &n,   &nblk,  &nblk,  &ZERO, &ZERO, &ictxt2, &na_rows,  &info);
+      ^
+
+Band_DFT_Col_Optical_ScaLAPACK.c(870): warning #266: function "solve_evp_complex_" declared implicitly
+        F77_NAME(solve_evp_complex,SOLVE_EVP_COMPLEX)(&n, &n, Cs, &na_rows, &ko[1], Ss, &na_rows, &nblk, &mpi_comm_rows_int, &mpi_comm_cols_int);
+        ^
+
+Band_DFT_Col_Optical_ScaLAPACK.c(927): warning #266: function "Cblacs_barrier" declared implicitly
+      Cblacs_barrier(ictxt2,"A");
+      ^
+
+Band_DFT_Col_Optical_ScaLAPACK.c(929): warning #266: function "pzgemm_" declared implicitly
+      F77_NAME(pzgemm,PZGEMM)("N","N",&n,&n,&n,&alpha,Hs,&ONE,&ONE,descH,Ss,&ONE,&ONE,descS,&beta,Cs,&ONE,&ONE,descC);
+      ^
+
+Band_DFT_Col_Optical_ScaLAPACK.c(1088): warning #266: function "solve_evp_complex_" declared implicitly
+      F77_NAME(solve_evp_complex,SOLVE_EVP_COMPLEX)(&n, &MaxN, Hs, &na_rows, &ko[1], Cs, &na_rows, &nblk, &mpi_comm_rows_int, &mpi_comm_cols_int);
+      ^
+
+Band_DFT_Col_Optical_ScaLAPACK.c(1560): warning #266: function "solve_evp_complex_" declared implicitly
+        F77_NAME(solve_evp_complex,SOLVE_EVP_COMPLEX)(&n, &n, Cs, &na_rows, &ko[1], Ss, &na_rows, &nblk, &mpi_comm_rows_int, &mpi_comm_cols_int);
+        ^
+
+Band_DFT_Col_Optical_ScaLAPACK.c(1611): warning #266: function "Cblacs_barrier" declared implicitly
+      Cblacs_barrier(ictxt2,"A");
+      ^
+
+Band_DFT_Col_Optical_ScaLAPACK.c(1613): warning #266: function "pzgemm_" declared implicitly
+      F77_NAME(pzgemm,PZGEMM)("N","N",&n,&n,&n,&alpha,Hs,&ONE,&ONE,descH,Ss,&ONE,&ONE,descS,&beta,Cs,&ONE,&ONE,descC);
+      ^
+
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -g    -c -o Cluster_DFT_Optical_ScaLAPACK.o Cluster_DFT_Optical_ScaLAPACK.c
+Cluster_DFT_Optical_ScaLAPACK.c(375): warning #266: function "solve_evp_real_" declared implicitly
+      F77_NAME(solve_evp_real,SOLVE_EVP_REAL)(&n, &n, Cs, &na_rows, &ko[0][1], Ss, &na_rows, &nblk, &mpi_comm_rows_int, &mpi_comm_cols_int);
+      ^
+
+Cluster_DFT_Optical_ScaLAPACK.c(541): warning #266: function "Cblacs_barrier" declared implicitly
+    Cblacs_barrier(ictxt1,"A");
+    ^
+
+Cluster_DFT_Optical_ScaLAPACK.c(542): warning #266: function "pdgemm_" declared implicitly
+    F77_NAME(pdgemm,PDGEMM)("N","N",&n,&n,&n,&alpha,Hs,&ONE,&ONE,descH,Ss,&ONE,&ONE,descS,&beta,Cs,&ONE,&ONE,descC);
+    ^
+
+Cluster_DFT_Optical_ScaLAPACK.c(568): warning #266: function "solve_evp_real_" declared implicitly
+    F77_NAME(solve_evp_real,SOLVE_EVP_REAL)(&n, &MaxN, Hs, &na_rows, &ko[spin][1], Cs, &na_rows, &nblk, &mpi_comm_rows_int, &mpi_comm_cols_int);
+    ^
+-----------------------
+
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c jx.c
+jx.c(85): warning #266: function "read_scfout" declared implicitly
+    read_scfout(argv);
+    ^
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c analysis_example.c
+analysis_example.c(52): warning #266: function "read_scfout" declared implicitly
+    read_scfout(argv);
+    ^
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c polB.c
+polB.c(176): warning #266: function "read_scfout" declared implicitly
+    read_scfout(argv);
+    ^
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c calB.c
+calB.c(287): warning #266: function "read_scfout" declared implicitly
+    read_scfout(argv);
+    ^
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c Z2FH.c
+Z2FH.c(336): warning #266: function "read_scfout" declared implicitly
+    read_scfout(argv);
+    ^
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c kSpin.c -DSIGMAEK
+kSpin.c(204): warning #266: function "read_scfout" declared implicitly
+    read_scfout(argv);
+    ^
+
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c BandDispersion.c 
+BandDispersion.c(191): warning #266: function "read_scfout" declared implicitly
+      read_scfout(fname_wf, 1);
+      ^
+
+BandDispersion.c(193): warning #266: function "read_scfout" declared implicitly
+      read_scfout(fname_wf, 0);
+      ^
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c FermiLoop.c 
+FermiLoop.c(351): warning #266: function "read_scfout" declared implicitly
+        read_scfout(fname_wf, 1);
+        ^
+
+FermiLoop.c(353): warning #266: function "read_scfout" declared implicitly
+        read_scfout(fname_wf, 0);
+        ^
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c GridCalc.c 
+GridCalc.c(273): warning #266: function "read_scfout" declared implicitly
+        read_scfout(fname_wf, 1);
+        ^
+
+GridCalc.c(275): warning #266: function "read_scfout" declared implicitly
+        read_scfout(fname_wf, 0);
+        ^
+mpiicc -O3 -xHOST -ip -no-prec-div -qopenmp -Dkcomp -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include -I/beegfs/software/intel/oneapi/mkl/2021.3.0/include/fftw -I/beegfs/home/by2457132/tools/fftw3/include -I/beegfs/home/by2457132/tools/OPENMPI/openmpi4.1.6/include -I./elpa-2018.05.001  -c MulPOnly.c 
+MulPOnly.c(194): warning #266: function "read_scfout" declared implicitly
+      if (myrank == 0){      read_scfout(fname_wf, 1);
+                             ^
+
+MulPOnly.c(195): warning #266: function "read_scfout" declared implicitly
+      }else {                read_scfout(fname_wf, 0);    }
+                             ^
+
